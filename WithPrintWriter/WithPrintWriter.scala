@@ -16,7 +16,7 @@ object withPrintWriterMain{
 
         withPrintWriter(
             new File("date.txt"),
-            writer => writer.println(new java.util.Date)
+            test => println(new java.util.Date)
         )
 
     }
